@@ -1,0 +1,89 @@
+    .song-list-container {
+        margin: 0px 0;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .song-list {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .song-card {
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+        width: 200px;
+        background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+    
+    .song-card:hover {
+        transform: scale(1.05);
+    }
+    
+    .song-info h3 {
+        font-size: 18px;
+        color: #333;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .song-info p {
+        font-size: 15px;
+        color: #777;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .play-btn {
+        background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+        border: none;
+        border-radius: 50px;
+        padding: 8px 20px;
+        color: white;
+        cursor: pointer;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .active {
+        border: 2px solid #ffffff;
+        box-shadow: 10px 10px 5px rgb(244, 163, 203);
+    }
+    
+    .show-more-btn {
+        margin-top: 20px;
+        background-image: linear-gradient(-225deg, #5ea6f3 0%, #fc99e9 100%);
+        border: none;
+        padding: 10px 20px;
+        border-radius: 50px;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        font-family: 'georgia';
+        font-weight: bold;
+    }
+    
+    .show-more-btn:hover {
+        background-color: #52a8d7;
+    }
+    
+    .back-btn {
+        margin-top: 20px;
+        background-color: #E4E4E1;
+        background-image: radial-gradient(at top center, rgba(255, 255, 255, 0.03) 0%, rgba(0, 0, 0, 0.03) 100%), linear-gradient(to top, rgba(255, 255, 255, 0.1) 0%, rgba(143, 152, 157, 0.60) 100%);
+        background-blend-mode: normal, multiply;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 50px;
+        color: rgb(18, 16, 16);
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        font-family: 'georgia';
+        font-weight: bold;
+    }
+    
+    .song-h2 {
+        color: #0099f9;
+    }

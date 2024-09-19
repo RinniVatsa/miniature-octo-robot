@@ -1,0 +1,43 @@
+.playlist-manager-container {
+    margin: 20px 0;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    bottom: 30px;
+}
+
+.playlist {
+    list-style: none;
+    padding: 0;
+}
+
+.playlist-item {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 6px rgba(34, 32, 32, 0.1);
+}
+
+.remove-btn {
+    background-color: #ffffff;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-family: 'georgia';
+}
+
+.playlist-h2 {
+    text-align: center;
+    justify-content: center;
+    background-image: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);
+    font-size: 30px;
+    font-weight: 400;
+    padding: 10px;
+    color: rgb(247, 247, 247);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
